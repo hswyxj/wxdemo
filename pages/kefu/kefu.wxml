@@ -24,12 +24,12 @@
 <!-- 文字内容 -->
 <view class="headquarters">
   <view class="title">公司总部</view>
-  <view>地址：广州市天河区涌东路大地工业区D栋603室</view>
+  <view>地址：广州市天河区XXXX</view>
   <view>邮编：524000</view>
 </view>
 <view class="service">
   <view class="title">客服服务</view>
-  <view>客服热线：020-85628002</view>
+  <view>客服热线：020-XXXXXX</view>
   <view>在线时间：24小时</view>
-  <view>邮箱：1114806364@qq.com</view>
+  <view>邮箱：XXXXXX@qq.com</view>
 </view>
