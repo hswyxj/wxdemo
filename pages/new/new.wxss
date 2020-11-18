@@ -1,0 +1,77 @@
+/* pages/new/new.wxss */
+.container{
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.big{
+  margin: 20rpx 0 30rpx;
+}
+.big image{
+  width: 100%;
+  height: 400rpx !important;
+}
+.optcaf,.opt_title{
+  font-size: 32rpx;
+  color: #616161;
+}
+.small{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 50rpx;
+}
+.small view{
+  width: 31%;
+}
+.small image{
+  width: 100%;
+  height: 175rpx !important;
+  display: block;
+  margin-top: 30rpx;
+  opacity: .8;
+}
+.small .active{
+  border: 4rpx solid #e6ac53;
+  border-radius: 20rpx;
+  opacity: 1;
+  box-sizing: border-box;
+}
+.opt_title{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-top: 2rpx solid #cdcdcd;
+}
+.opt{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.taste{
+  width: 32%;
+  height: 175rpx;
+  text-align: center;
+  margin-bottom: 26rpx;
+  border: 4rpx solid #969696;
+  box-sizing: border-box;
+  border-radius: 12rpx;
+}
+.opt_taste{
+  font-size: 36rpx;
+  color: #9a9a9a;
+  margin: 40rpx 0 20rpx;
+}
+.taste text{
+  color: #9b9b9b;
+}
+.opt .current{
+  border: 4rpx solid #faa931;
+}
+.btn button{ 
+  color: white;
+  background-color: #f1a93d;
+  margin: 50rpx 0 30rpx;
+}
+
+
+

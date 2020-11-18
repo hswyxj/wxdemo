@@ -1,0 +1,88 @@
+/* pages/menu/menu.wxss */
+/* 轮播图 */
+.swiper image{
+  width: 100vw;
+  /* 小程序的图片默认是无法等比例缩放的
+     图片在任何一个设备尺寸下，目前都是等比例缩放
+     计算高度的值 现宽/现高 = 原宽/原高
+     原高*原宽/375
+  */
+  height: calc(180 * 100vw / 375) !important;
+}
+swiper{
+  height: calc(180 * 100vw / 375) !important;
+}
+/* 菜单数据的样式 */
+.main{
+  height: calc(100vh - calc(180 * 100vw / 375));
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+.main_l{
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+.main_l .scroll-view-item{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  position: relative;
+}
+.main_l .scroll-view-item::before{
+  content: "";
+  width: 6rpx;
+  height: 100%;
+  background-color: #4f4f9e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.main_l .scroll-view-item.active::before{
+  display: block;
+}
+/* 右侧 */
+.main_r{
+  float: right;
+  width: 75%;
+  height: 100%;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+.main_r .title{
+  height: 70rpx;
+  line-height: 70rpx;
+  font-weight: bold;
+}
+.main_r .content{
+  background-color: #fff;
+  overflow: hidden;
+  padding: 30rpx 20rpx;
+}
+.main_r .content view{
+  width: 30%;
+  float: left;
+  margin-left: 3%;
+}
+.main_r .content image{
+  width: 100%;
+  display: block;
+}
+.main_r .content text{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  padding: 14rpx 0;
+}
+
+
+

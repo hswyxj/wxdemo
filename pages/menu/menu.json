@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-banner":"/components/banner/banner"
+  },
+  "navigationBarTitleText": "咖啡菜单页"
+}

@@ -1,0 +1,79 @@
+/* pages/home/home.wxss */
+
+/* title */
+.title{
+  height: 100rpx;
+  background-color: #fff;
+  position: relative;
+}
+.line{
+  width: 33%;
+  height: 4rpx;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+}
+.word{
+  width: 24%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  top: 0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+}
+/* 横向滚动卡片 */
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item_H image{
+  width: 100%;
+  display: block;
+}
+.scroll-view-item_H{
+  width: 40vw;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden; /*能够给带有宽度的盒子自定检测高度*/
+  margin: 0 8rpx;
+  border-radius: 6rpx;
+  box-shadow: 0 0 6rpx #ccc;
+  color: #a6a6a6;
+}
+.scroll-view-item_H view{
+  height: 54rpx;
+  line-height: 54rpx;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+/* 新品展示 */
+.list{
+  padding: 0 4%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list_li{
+  width: 48%;
+  margin-bottom: 20rpx;
+  box-shadow: 0 0 6rpx #000;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.list image{
+  width: 100%;
+  display: block;
+}
+.list_li_desc{
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #a6a6a6;
+}
+
+

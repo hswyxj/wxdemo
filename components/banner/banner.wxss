@@ -1,0 +1,41 @@
+/* components/banner/banner.wxss */
+/* 轮播图 */
+.swiper image{
+  width: 100vw;
+  /* 小程序的图片默认是无法等比例缩放的 */
+  /* 
+    图片在任何一个设备尺寸下，目前都是等比例缩放
+    计算高度的值 现宽/现高 = 原宽/原高
+    原高*原宽/375
+  */
+  height: calc(250 * 100vw / 375);
+}
+swiper{
+  height: calc(250 * 100vw / 375);
+}
+.swiper{
+  position: relative;
+}
+.dots{
+  width: 160rpx;
+  height: 20rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 14rpx;
+  display: flex;
+}
+.dot{
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  margin-right: 14rpx;
+  background-color: white;
+}
+.current{
+  width: 30rpx;
+  height: 20rpx;
+  border-radius: 20rpx;
+  margin-right: 14rpx;
+  background-color: blue;
+  transition: width .3s linear;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-banner":"/components/banner/banner",
+    "my-box":"/components/box/box"
+  },
+  "navigationStyle":"custom"
+}

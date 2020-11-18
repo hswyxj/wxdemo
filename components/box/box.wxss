@@ -1,0 +1,10 @@
+/* components/box/box.wxss */
+.mybox{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background-color: pink;
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+}
